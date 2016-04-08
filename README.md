@@ -14,7 +14,7 @@ Pull image:
 docker pull docker pull pengbai/docker-mvn-j8-alpine
 ```
 
-Run ```mvn -version``` command with container, this container will on STATUS Exited after excuting this command, look container's logs (```docker logs CONTAINER_ID```) for more detail:
+Run ```mvn -version``` command with container, this container will be then on STATUS Exited after excuting this command, look container's logs (```docker logs CONTAINER_ID```) for more detail:
 ```
 docker run -d pengbai/docker-mvn-j8-alpine:3.3.9 mvn -version
 ```
