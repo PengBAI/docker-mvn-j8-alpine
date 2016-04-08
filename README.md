@@ -1,6 +1,8 @@
 # docker-mvn-j8-alpine
 Maven on Alpine OpenJDK8
 
+[![](https://badge.imagelayers.io/pengbai/docker-mvn-j8-alpine:latest.svg)](https://imagelayers.io/?images=pengbai/docker-mvn-j8-alpine:latest 'Get your own badge on imagelayers.io')
+
 Image on docker hub: [https://hub.docker.com/r/pengbai/docker-mvn-j8-alpine/](https://hub.docker.com/r/pengbai/docker-mvn-j8-alpine/)
 
 This is a maven image, we can use maven command on running this image:
