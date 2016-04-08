@@ -11,7 +11,7 @@ This is a maven image, we can use maven command on running this image:
 
 Pull image:
 ```
-docker pull docker pull pengbai/docker-mvn-j8-alpine
+docker pull pengbai/docker-mvn-j8-alpine
 ```
 
 Run ```mvn -version``` command with container, this container will be then on STATUS Exited after excuting this command, look container's logs (```docker logs CONTAINER_ID```) for more detail:
