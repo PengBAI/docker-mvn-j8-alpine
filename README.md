@@ -19,7 +19,7 @@ Run ```mvn -version``` command with container, this container will on STATUS Exi
 docker run -d pengbai/docker-mvn-j8-alpine:3.3.9 mvn -version
 ```
 
-The same to run other maven command THIS_IS_A_MVN_COMMAND, you can use volume to mount source on local /local-workspace.
+The same to run other maven command THIS_IS_A_MVN_COMMAND, you can also use volume to mount source on local /local-workspace.
 ```
 docker run -d -v /local-workspace:/container-workspace pengbai/docker-mvn-j8-alpine:3.3.9 THIS_IS_A_MVN_COMMAND
 ```
