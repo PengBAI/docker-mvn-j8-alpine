@@ -1,7 +1,7 @@
 FROM java:openjdk-8-jdk-alpine
 MAINTAINER github.com/PengBAI
 
-ENV MAVEN_VERSION 3.3.9
+ARG MAVEN_VERSION 3.5.0
 
 RUN mkdir -p /opt/maven
 WORKDIR /opt/maven
